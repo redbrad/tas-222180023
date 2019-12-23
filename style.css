@@ -1,0 +1,219 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: black;
+  color: white;
+}
+#page {
+	margin: 15px auto;
+	width: 950px;
+	background-color: #464646;
+	border: 4px solid #464646;
+  border-radius: 5px;
+}
+#header {
+  background: url(images/rosok3.jpg) no-repeat;
+}
+
+/* ================================= menu ================================= */
+#menu_atas {
+  width: 950px;
+  height: 35px;
+  background-color: #0077ff;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+#menu_atas ul {
+  font: 14px Arial, Verdana;
+  font-size: 14px;
+  font-family: Arial;
+  list-style-type:none; /* menghilangkan dot list */
+}
+#menu_atas ul li {
+  display: inline; /* membuat menu_atas jd horizontal */
+  float: left; /* menempel ke kiri spy gada space kosong */
+  text-align: center;
+}
+#menu_atas ul li:last-child {
+  border-right: none; /* menghilangkan border kanan di list menu_atas yg plg akhir */
+}
+#menu_atas ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0077ff;
+  line-height: 25px;
+  padding: 5px 50px;
+}
+#menu_atas ul li a:hover {
+  background-color: #464646;
+  color: white;
+}
+
+/* ================================= header ================================= */
+#header {
+	height: 250px;
+	background: url(images/rosok3.jpg) no-repeat;
+	margin-bottom: 3px;
+	border: 1px solid #464646;
+}
+
+/* ================================= halaman kanan ================================= */
+#halaman_kanan {
+	width: 225px;
+	float: right;
+	height: 510px;
+}
+#cari {
+  background: #0077ff url(images/cari.png) no-repeat 10px;
+  height: 30px;
+	padding: 10px 10px 0px 55px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+}
+#isi_cari input[type=text] {
+  border: none;
+  width: 185px; /* aslinya 225px */
+  font-size: 17px;
+  margin-bottom: 7px;
+  line-height: 25px;
+  padding: 5px 20px;
+}
+#statistik {
+  background: #0077ff url(images/statistik.png) no-repeat 10px;
+  height: 30px;
+	padding: 10px 10px 0px 55px;
+	margin-bottom: 7px;
+  border-radius: 5px;
+}
+#isi_statistik {
+  border: 1px solid grey;
+}
+#isi_statistik p {
+  font-size: 12px;
+  margin: 5px 0 0 5px;
+}
+#isi_statistik h3 {
+  margin: 5px 0 0 5px;
+}
+
+/* ================================= konten ================================= */
+#content {
+	width: 471px; /* aslinya 500px */
+  float: right;
+	margin: 0 0 3px 3px;
+	padding: 5px 10px;
+	font: 13px Verdana white;
+  margin: 2px;
+}
+#content img {
+  width: 200px;
+  height: 140px;
+  float: left;
+  margin-right: 5px;
+}
+#content p {
+  text-align: justify;
+}
+
+/* ================================= halaman kiri ================================= */
+#halaman_kiri {
+	width: 225px;
+	float: right;
+}
+#kategori {
+  background: #0077ff url(images/kategori.png) no-repeat 10px;
+  height: 30px;
+	padding: 10px 10px 0px 55px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+}
+
+/* ================================= isi kategori ================================= */
+#isi_kategori {
+  margin-bottom: 3px;
+  border: 1px solid grey;
+}
+#isi_kategori ul {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#isi_kategori ul li {
+  list-style-type: none;
+}
+#isi_kategori ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 0 24px 0 10px;
+  line-height: 28px;
+  color: white;
+  font-size: 13px;
+}
+#isi_kategori ul li a:hover {
+  color: #FFF;
+  background-color: #0088d3;
+}
+
+/* ================================= login ================================= */
+#login {
+  background: #0077ff url(images/login.png) no-repeat 10px;
+  height: 30px;
+	padding: 10px 10px 0px 55px;
+  margin: 7px 0 7px 0;
+  border-radius: 5px;
+}
+#isi_login {
+  border: 1px solid grey;
+}
+label {
+  font-size: 11pt;
+  margin: 5px;
+}
+.form_login {
+	box-sizing : border-box;
+	width: 90%;
+	padding: 5px;
+	font-size: 11pt;
+  margin: 0 0 5px 5px;
+  border: 1px solid grey;
+}
+.tombol_login {
+	font-size: 11pt;
+	width: 30%;
+  margin: 0 0 5px 5px;
+}
+
+/* ================================= footer ================================= */
+#footer {
+  clear: both;
+  text-align: center;
+  background: url(images/swirl.png) no-repeat;
+}
+#footer ul {
+  font: 12px Arial, Verdana;
+  list-style-type:none; /* menghilangkan dot list */
+}
+#footer ul li {
+  display: inline; /* membuat menu_atas jd horizontal */
+  text-align: center;
+  border-right: 1px solid white;
+}
+#footer ul li:last-child {
+  border-right: none;
+}
+#footer ul li a {
+  text-decoration: none;
+  color: white;
+  line-height: 25px;
+  padding: 5px 20px;
+}
+#footer ul li a:hover {
+  color: #0077ff;
+}
+#footer p {
+  text-align: center;
+  font-size: 9pt;
+  margin: 20px;
+}
